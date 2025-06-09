@@ -20,9 +20,6 @@ def check_password():
             return False
     return False
 
-# --- Stored Password (Hash of Mclaren@0629) ---
-stored_password_hash = "fc0d296eb61ecdb2df4c716bb2e126ee3e07a0f8b28b1a2673d3d2c43d8df2e6"
-
 # --- Authentication Gate ---
 if not check_password():
     st.stop()
